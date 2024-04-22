@@ -9,11 +9,6 @@ from langchain.agents import AgentExecutor
 
 from database_agent import database_agent
 
-from dotenv import load_dotenv
-
-# Load variables from .env file
-load_dotenv()
-
 # This agent acts as the manager of the organization
 
 ## LLM
@@ -57,10 +52,7 @@ agent = (
 
 
 ## AGENT EXECUTOR
-agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
+creative_agent = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-res = agent_executor.invoke({'input': "Batman fights Joker"})
 
-print(res)
-
-__all__ = ['agent_executor']
+__all__ = ['creative_agent']
