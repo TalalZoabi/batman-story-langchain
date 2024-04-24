@@ -1,20 +1,56 @@
 {
-    "horror focused": {
-
+    "Origin Story": {
+        "description": "Narratives that explore the beginnings of Batman, including the murder of Bruce Wayne's parents, his training, and the development of his alter ego.",
+        "focus": "Character development, transformation, and the shaping of Batman's moral code.",
+        "themes": ["Justice", "Trauma", "Identity"],
+        "tone": "Gritty, introspective, and sometimes melancholic.",
+        "key_characters": ["Bruce Wayne", "Thomas and Martha Wayne", "Alfred Pennyworth"],
+        "key_locations": ["Crime Alley", "Wayne Manor", "Gotham City"],
+        "canonical_examples": ["Batman: Year One", "Batman Begins"]
     },
-    "combat focused": {
-
+    "Detective Story": {
+        "description": "Narratives that focus on Batman's skills as a detective, often involving complex mysteries, crime-solving, and deduction.",
+        "focus": "Problem-solving, deduction, and unraveling intricate plots.",
+        "themes": ["Justice", "Intellect", "Morality"],
+        "tone": "Suspenseful, cerebral, and occasionally noir.",
+        "key_characters": ["Batman", "Commissioner Gordon", "The Riddler"],
+        "key_locations": ["Gotham City", "GCPD Headquarters", "Crime Scenes"],
+        "canonical_examples": ["The Long Halloween", "Hush"]
     },
-    "side character focused": {
-
+    "Gothic Horror": {
+        "description": "Stories that emphasize the dark, gothic elements of Gotham City and its villains, creating a moody and atmospheric tone.",
+        "focus": "Exploring the psychological depths of Batman's adversaries and the eerie ambiance of Gotham.",
+        "themes": ["Fear", "Madness", "Redemption"],
+        "tone": "Brooding, macabre, and psychologically intense.",
+        "key_characters": ["Batman", "Joker", "Scarecrow"],
+        "key_locations": ["Arkham Asylum", "Gotham City Streets", "Abandoned Buildings"],
+        "canonical_examples": ["Batman: The Killing Joke", "Arkham Asylum: A Serious House on Serious Earth"]
     },
-    "setting focused": {
-
+    "Team-Up": {
+        "description": "Narratives where Batman collaborates with other superheroes or characters from the DC Universe to tackle a common threat or challenge.",
+        "focus": "Exploring dynamic partnerships, teamwork, and the interaction between different characters.",
+        "themes": ["Friendship", "Unity", "Adaptation"],
+        "tone": "Dynamic, action-packed, and often humorous.",
+        "key_characters": ["Batman", "Superman", "Wonder Woman"],
+        "key_locations": ["Gotham City", "Metropolis", "Hall of Justice"],
+        "canonical_examples": ["Batman/Superman: Public Enemies", "Batman & Robin (comic series)"]
     },
-    "dialogue focused": {
-
+    "Crossover": {
+        "description": "Stories that involve Batman crossing over into different universes or encountering characters from other franchises.",
+        "focus": "Exploring alternate realities, multiverse concepts, and unexpected character interactions.",
+        "themes": ["Exploration", "Adaptation", "Collaboration"],
+        "tone": "Epic, imaginative, and filled with surprises.",
+        "key_characters": ["Batman", "Guest Characters from Other Franchises"],
+        "key_locations": ["Multiverse Nexus Points", "Alternate Realities"],
+        "canonical_examples": ["Batman/Teenage Mutant Ninja Turtles", "Batman/Spawn"]
     },
-    "left field": {
-
+    "Gritty Urban Crime": {
+        "description": "Narratives that depict Batman as a vigilante fighting street-level crime in Gotham City, often exploring social issues and urban decay.",
+        "focus": "Addressing societal problems, the complexities of crime, and the struggle for justice in a corrupt city.",
+        "themes": ["Corruption", "Inequality", "Vigilantism"],
+        "tone": "Dark, gritty, and realistic.",
+        "key_characters": ["Batman", "Gotham City Criminals", "Harvey Dent"],
+        "key_locations": ["Gotham City Streets", "Crime-ridden Neighborhoods", "Blackgate Penitentiary"],
+        "canonical_examples": ["Batman: The Dark Knight Returns", "Gotham Central"]
     }
 }

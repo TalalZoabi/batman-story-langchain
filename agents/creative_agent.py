@@ -7,7 +7,7 @@ from langchain.agents.format_scratchpad.openai_tools import (
 from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
 from langchain.agents import AgentExecutor
 
-from database_agent import database_agent
+from .database_agent import database_agent
 
 # This agent acts as the manager of the organization
 

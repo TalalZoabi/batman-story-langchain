@@ -15,7 +15,7 @@
         "history_with_batman": "Alfred has been with Bruce since childhood, acting as his guardian, confidant, and aide in his crusade as Batman.",
         "personality": "Gentlemanly, fatherly, witty, highly competent, and always composed."
     },
-    "Robin (Dick Grayson)": {
+    "Robin": {
         "short_description": "The first Robin, Batman’s sidekick, who later becomes Nightwing.",
         "abilities": ["Acrobatics", "Expert hand-to-hand combatant", "Tactical analysis"],
         "weaknesses": ["Less experienced than Batman", "Emotional reactions"],
@@ -31,7 +31,7 @@
         "history_with_batman": "Constantly at odds with Batman, trying to spread chaos and anarchy in Gotham.",
         "personality": "Chaotic, sadistic, unpredictable, dark sense of humor, completely lacks empathy."
     },
-    "Catwoman (Selina Kyle)": {
+    "Catwoman": {
         "short_description": "A complex antiheroine and sometimes love interest of Batman, known for her cat-themed costume.",
         "abilities": ["Expert thief", "Acrobatics", "Combat skills"],
         "weaknesses": ["Conflict between criminal activities and moral good"],
@@ -47,7 +47,7 @@
         "history_with_batman": "Famous for breaking Batman's back during the 'Knightfall' storyline, Bane is one of the few who has 'defeated' Batman.",
         "personality": "Calculating, ruthless, highly strategic, speaks several languages, maintains a code of honor."
     },
-    "Mr. Freeze (Dr. Victor Fries)": {
+    "Mr. Freeze": {
         "short_description": "A scientist turned villain who must wear a cryogenic suit to survive, uses ice-based weapons.",
         "abilities": ["Genius-level intellect in cryogenics", "Uses a variety of ice-based gadgets and weapons"],
         "weaknesses": ["Cannot survive outside of a sub-zero environment", "Blinded by his drive to revive his wife"],
@@ -55,7 +55,7 @@
         "history_with_batman": "Often clashes with Batman while carrying out crimes to fund his research to cure his terminally ill wife.",
         "personality": "Tragic, focused, emotionally distant, speaks in a cold, formal manner."
     },
-    "Scarecrow (Dr. Jonathan Crane)": {
+    "Scarecrow": {
         "short_description": "A former psychologist who uses his knowledge of fear to terrorize Gotham City.",
         "abilities": ["Expert in psychology", "Uses fear-inducing toxins", "Strategic use of fear and terror"],
         "weaknesses": ["Physical frailty", "Obsession with inducing fear"],
@@ -63,7 +63,7 @@
         "history_with_batman": "Uses his fear toxins to challenge Batman's mental and physical limits, often focusing on Batman's own fears.",
         "personality": "Manipulative, calculating, sadistic, has a deep understanding of human psychology."
     },
-    "Two-Face (Harvey Dent)": {
+    "Two-Face": {
         "short_description": "Formerly Gotham’s district attorney, Harvey Dent was transformed into a villain obsessed with duality and chance.",
         "abilities": ["Expert in law and criminal psychology", "Skilled marksman", "Strategic criminal planner"],
         "weaknesses": ["Split personality", "Dependence on his coin to make decisions"],

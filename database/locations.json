@@ -1,22 +1,75 @@
 {
-    "Arkham Asylum": {
-    },
-    "Joker's Funhouse": {
-    },
-    "Batcave": {
-    },
     "Wayne Manor": {
-    },
-    "Gotham City Police Department": {
-    },
-    "Ace Chemicals": {
-    },
-    "Blackgate Penitentiary": {
+        "short_description": "The stately residence of Bruce Wayne, also known as Batman.",
+        "special_effects": {
+            "Batman": "Home base, provides strategic advantage."
+        },
+        "owner": "Bruce Wayne",
+        "location_type": "Residence"
     },
     "Gotham City Hall": {
+        "short_description": "The administrative center of Gotham City.",
+        "special_effects": {
+            "Corrupt officials": "May provide advantages to corrupt characters."
+        },
+        "location_type": "Government Building"
+    },
+    "Arkham Asylum": {
+        "short_description": "A psychiatric hospital for the criminally insane.",
+        "special_effects": {
+            "Villains": "May exacerbate their madness."
+        },
+        "location_type": "Psychiatric Hospital"
+    },
+    "Batcave": {
+        "short_description": "Secret headquarters of Batman located beneath Wayne Manor.",
+        "special_effects": {
+            "Batman": "Provides technological advantage and hideout."
+        },
+        "owner": "Batman",
+        "location_type": "Secret Lair"
+    },
+    "Gotham City Police Department": {
+        "short_description": "Headquarters of Gotham City's law enforcement.",
+        "special_effects": {
+            "Law-abiding citizens": "Offers protection and support."
+        },
+        "location_type": "Law Enforcement Building"
+    },
+    "Ace Chemicals": {
+        "short_description": "A chemical plant with a notorious history in Gotham.",
+        "special_effects": {
+            "Toxic exposure": "May cause harm or transformation."
+        },
+        "location_type": "Chemical Plant"
+    },
+    "Joker's Funhouse": {
+        "short_description": "The Joker's twisted hideout filled with deadly traps.",
+        "special_effects": {
+            "Unsuspecting victims": "May lead to danger and madness."
+        },
+        "owner": "The Joker",
+        "location_type": "Hideout"
     },
     "Gotham City Bank": {
+        "short_description": "A major financial institution in Gotham City.",
+        "special_effects": {
+            "Robbers": "Potential target for heists."
+        },
+        "location_type": "Financial Institution"
     },
     "Gotham City Museum": {
+        "short_description": "A cultural institution showcasing Gotham's history and art.",
+        "special_effects": {
+            "Art lovers": "Source of inspiration and knowledge."
+        },
+        "location_type": "Museum"
+    },
+    "Blackgate Penitentiary": {
+        "short_description": "A high-security prison housing Gotham's most dangerous criminals.",
+        "special_effects": {
+            "Escaped convicts": "May unleash chaos upon escape."
+        },
+        "location_type": "Prison"
     }
 }

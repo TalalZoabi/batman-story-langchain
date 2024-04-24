@@ -8,7 +8,7 @@ from langchain.agents.format_scratchpad.openai_tools import (
 from langchain.agents.output_parsers.openai_tools import OpenAIToolsAgentOutputParser
 from langchain.agents import AgentExecutor
 
-from database_agent import database_agent
+from .database_agent import database_agent
 
 # This agent acts as the manager of the organization
 
@@ -41,7 +41,7 @@ llm_with_tools = llm.bind_tools(tools)
 ## AGENT
 agent = (
     {
-        "creative_draft": lambda x: x["creative_draft"],
+        "creative_draft": lambda x: x['input'],
         "agent_scratchpad": lambda x: format_to_openai_tool_messages(
             x["intermediate_steps"]
         ),
@@ -54,8 +54,6 @@ agent = (
 
 ## AGENT EXECUTOR
 writer_agent = AgentExecutor(agent=agent, tools=tools, verbose=True)
-
-
 
 __all__ = ['writer_agent']
 
